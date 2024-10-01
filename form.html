@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="Icon" href="Screenshot_20240904_223221_Chrome.jpg" style="outline: none;overflow: hidden;border-radius: 100%;">
+</head>
+<body>
+    <Section class="Form">
+        <h2 id="H2Element">Contact Me</h2>
+        <form id="Form">
+            <label for="Name" id="NameLabel">Your Name :</label>
+            <input type="text" name="Name" id="Name" class="Norm-input" placeholder="Name">
+            <label for="Email" id="EmalLabel">Your Email :</label>
+            <input type="email" name="Email" id="Email" class="Norm-input" placeholder="Email">
+            <label for="Message" id="MessageLabel">Your Message :</label>
+            <input type="text" name="Message" id="Message" placeholder="Message">
+            <input type="hidden" name="tel" value="2360663531" />
+            <input type="hidden" name="url" value="ali.github.io" />
+            <button id="Send-Btn">Send Message</button>
+        </form>
+    </Section>
+    <button id="Change-language" onclick="Change()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(203, 44, 5, 1);" id="La-Circle"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2z"></path></svg>
+        <H3 id="H3-btn">FA</H3>
+    </button>
+    <script src="form.js"></script>
+</body>
+</html>

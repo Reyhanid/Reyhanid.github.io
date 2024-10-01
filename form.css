@@ -1,0 +1,112 @@
+@font-face {
+    font-family:"B Nazanin";
+    src: url(B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+}
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: aliceblue;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+hr{
+    width: 20rem;
+    color: #9d2204;
+}
+body{
+    background-image:url(./1272559565942030367.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Form{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27rem;
+    height: 48rem;
+    background-color: rgba(151, 151, 151, 0.4);
+    backdrop-filter: blur(15px);
+    border-radius: 3rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.74);
+    background-image: linear-gradient(rgba(175, 174, 174, 0.247),rgba(189, 127, 12, 0.253));
+}
+#Form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 21.3rem;
+    height: 40rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+input::placeholder{
+    color: #9d2204;
+    font-weight: 600;
+}
+.Norm-input{
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.473);
+    background: #fffdfdb6;
+}
+#Message{
+    height: 11rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.473);
+    background: #fffdfdb6;
+}
+#Send-Btn{
+    height: 3rem;
+    width: 9rem;
+    margin: 2rem auto;
+    border-radius: 4rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 12px #9d2204;
+    font-weight: 700;
+    color: #9d2204;
+}
+#Change-language{
+    position: absolute;
+    top: 30px;
+    right: 18px;
+    width: 4.3rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(255, 246, 246, 0.87);
+    border: 2px solid #f06947a1;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: rgba(14, 14, 14, 0.205);
+}
+label , h2{
+    text-decoration-line: underline;
+    text-decoration-color: #9d2204;
+    text-decoration-style: dashed;
+    text-underline-offset: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
+}
