@@ -47,10 +47,10 @@ body{
     background-image: linear-gradient(rgba(175, 174, 174, 0.247),rgba(189, 127, 12, 0.253));
 }
 #SuccessMessage{
-    color: green;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.555);
+    color: rgb(5, 190, 5);
+    text-shadow: 0 0px 12px rgba(0, 0, 0, 0.884);
     font-weight: 800;
-    font-size: 28px;
+    font-size: 21px;
 }
 #Change-language{
     position: absolute;
@@ -70,4 +70,13 @@ body{
     border-radius: 2rem;
     cursor: pointer;
     background-color: rgba(14, 14, 14, 0.205);
+}
+#Return{
+    margin-top: 1rem;
+    color: #9d2204;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 4px;
+    box-shadow: 0 0 12px;
 }
